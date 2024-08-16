@@ -3,7 +3,6 @@ import java.util.*;
 
 public class SomaDoisNumeros 
 {
-
 	public static Scanner sc = new Scanner(System.in);
 
 	public static void main (String args[])

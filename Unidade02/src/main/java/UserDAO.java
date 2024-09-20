@@ -157,9 +157,9 @@ public class UserDAO extends XDAO
 			st.close();
 			status = true;
 		} 
-		catch (SQLException u) 
+		catch (SQLException e) 
 		{  
-			throw new RuntimeException(u);
+			throw new RuntimeException(e);
 		}
 		return status;
 	}

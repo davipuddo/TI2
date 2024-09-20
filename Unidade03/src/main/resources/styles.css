@@ -1,0 +1,99 @@
+p, ul, li, a, label
+{
+    font-size: 22px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+
+body
+{
+    background-color: #f0f0f0;
+    padding: 0px;
+    margin: 0px;
+}
+
+header
+{
+    display: flex;
+    justify-content: center;
+    padding: 20px 10px 20px 10px;
+    margin: 0px;
+    background-color: #fa8951;
+    width: 1fr;
+    filter: drop-shadow(0px 2px 2px);
+}
+
+h1
+{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+}
+
+main
+{
+    display: grid;
+    grid-template-columns: repeat(2, 30%);
+    justify-content: center;
+    grid-gap: 50px;
+    padding: 80px 0px;
+}
+
+main section
+{
+    gap: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+form, span
+{
+    width: 18vw;
+    border: 2px solid #222;
+    border-radius: 4px;
+    filter: drop-shadow(2px 2px 2px #999);
+    background-color: #4cb0d7;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+span
+{
+    height: 150px;
+}
+
+section *:not(label)
+{
+    align-self: center;
+}
+
+label
+{
+    padding-left: 6px;
+}
+
+button, input
+{
+    border: 2px solid #222;
+    border-radius: 3px;
+}
+
+button
+{
+    width: 75px;
+}
+
+button:hover
+{
+    filter: brightness(90%);
+    cursor: pointer;
+}
+
+input
+{
+    height: 25px;
+    width: 17vw;
+}

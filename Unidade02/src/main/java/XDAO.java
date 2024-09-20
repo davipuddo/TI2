@@ -20,7 +20,7 @@ public class XDAO
 		// Parametros da conexao
 		String driverName = "org.postgresql.Driver";                    
 		String serverName = "localhost";
-		String mydatabase = "Unidade02";
+		String mydatabase = "unidade02";
 		int porta = 5432;
 		String url = "jdbc:postgresql://" + serverName + ":" + porta +"/" + mydatabase;
 		String username = "ti2cc";
